@@ -1,0 +1,314 @@
+@font-face {
+	font-family: 'HighlandGothic';
+	src: url('../fonts/highlandgothic.woff') format('woff'),
+		 url('../fonts/highlandgothic.ttf')  format('truetype');
+}
+body {
+	background-color: #333333;
+	color: #d1d1d1;
+}
+h1 {
+	font-family: HighlandGothic, Arial;
+	font-size: 36px;
+	margin: 18px 10px 30px;
+}
+h2 {
+	font-family: "Lobster", cursive;
+	font-size: 36px;
+	margin: 60px 0 15px 0;
+}
+h3 {
+	font-family: Georgia, serif;
+	font-size: 24px;
+	margin: 50px 0 15px;
+	font-style: italic;
+	font-weight: normal;
+}
+h2 a,
+h3 a {
+	color: #a1a1a1;
+}
+h2 a:hover,
+h3 a:hover {
+	color: #eeeeee;
+}
+h2 a i,
+h3 a i {
+	font-size: 18px !important;
+	margin-left: 20px;
+}
+hr {
+	border-color: #888;
+}
+#content .heading-highlight {
+	color: #555;
+	background-color: #eee;
+	padding: 10px 8px 4px 8px;
+	border-radius: 4px 4px 0 0;
+	margin-bottom: 0;
+}
+#content .heading-highlight+div {
+	color: #555;
+	background-color: #eee;
+	padding: 8px 8px 1px 8px;
+	border-radius: 0 0 4px 4px;
+}
+#content .heading-highlight+div > p {
+	color: #555;
+}
+#content .heading-highlight+div a {
+	color: #337ab7;
+}
+#content .heading-highlight+div a:hover {
+	color: #23527c;
+}
+.well.well-white {
+	background-color: white;
+}
+.img-banner {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.margin-bottom-light {
+	margin-bottom: 15px;
+}
+#sidebar {
+	padding: 20px 40px;
+}
+#sidebar .nav li {
+	font-family: HighlandGothic, Arial;
+	font-size: 18px;
+}
+#sidebar .nav li a {
+	color: #a1a1a1;
+	text-align: center;
+}
+.page-home #sidebar .nav li.nav-home a,
+.page-home #sidebar .nav li.nav-home a:hover,
+.page-about #sidebar .nav li.nav-about a,
+.page-about #sidebar .nav li.nav-about a:hover,
+.page-buy #sidebar .nav li.nav-buy a,
+.page-buy #sidebar .nav li.nav-buy a:hover,
+.page-testimonials #sidebar .nav li.nav-testimonials a,
+.page-testimonials #sidebar .nav li.nav-testimonials a:hover,
+.page-gallery #sidebar .nav li.nav-gallery a,
+.page-gallery #sidebar .nav li.nav-gallery a:hover,
+.page-contact #sidebar .nav li.nav-contact a,
+.page-contact #sidebar .nav li.nav-contact a:hover {
+	color: #B28F37;
+	background-color: transparent;
+}
+#content {
+	border-left: 1px solid #414141;
+	padding: 20px 40px;
+	min-height: 425px;
+}
+.page-home #content {
+	border-left: none;
+	padding: 0 15px;
+	min-height: 0;
+}
+#sidebar .nav li a:hover,
+#sidebar .nav li a:active,
+#sidebar .nav li a:focus {
+	color: #eeeeee;
+	background-color: transparent;
+	transition: color 0.8s ease;
+}
+#sidebar .social-icons {
+	text-align: center;
+	margin-top: 50px;
+	padding-top: 35px;
+	border-top: 1px solid #414141;
+}
+#sidebar .social-icons a i {
+	font-size: 42px !important;
+	color: #a1a1a1;
+	transition: color 0.5s ease;
+}
+#sidebar .social-icons a i:hover {
+	color: #3A5999;
+}
+#sidebar .social-icons .btn {
+	border: none;
+	font-family: HighlandGothic, Arial;
+	font-size: 20px;
+}
+.logo {
+	margin-bottom: 20px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #414141;
+	text-align: center;
+	font-family: "Lobster", cursive;
+	font-size: 32px;
+}
+.logo a {
+	color: #d1d1d1;
+}
+.logo a:hover {
+	text-decoration: none;
+}
+.mobile-header {
+	padding: 0 10px;
+	border-bottom: 1px solid #414141;
+	margin: -10px 0 0 -6px;
+}
+.mobile-header a {
+	font-family: "Lobster", cursive;
+	font-size: 32px;
+	color: #d1d1d1;
+}
+.page-home .mobile-header {
+	padding: 10px 30px 6px;
+	margin: 0;
+}
+.mobile-header i {
+	font-size: 25px;
+	float: left;
+	margin: 0;
+	padding: 10px 25px 10px 4px;
+}
+.mobile-header a {
+	display: inline-block;
+}
+.mobile-header img {
+	height: 50px;
+}
+#content {
+	color: #a1a1a1;
+}
+#content p:first-of-type {
+	margin-top: 0;
+}
+#content p {
+	color: #a1a1a1;
+	font-size: 15px;
+	margin: 15px 0;
+	padding: 0;
+}
+#content p a {
+	color: #a1a1a1;
+	text-decoration: underline;
+}
+#content p a:hover {
+	color: #eeeeee;
+}
+#content blockquote {
+	margin: 25px 0;
+	border: none;
+	padding-left: 60px;
+	font-style: italic;
+	font-size: 20px;
+	background-color: #414141;
+	border-radius: 5px;
+	background-image: url("../images/icon-quote.png");
+	background-size: 40px;
+	background-repeat: no-repeat;
+	background-position: 10px 14px;
+}
+#content ul {
+	color: #a1a1a1;
+	font-size: 15px;
+	line-height: 180%;
+}
+#content ul li {
+	color: #a1a1a1;
+	font-size: 15px;
+}
+#content ul li a {
+	color: #a1a1a1;
+	text-decoration: underline;
+}
+#content ul li a:hover {
+	color: #eeeeee;
+}
+
+.tile {
+	padding: 0;
+}
+.tile a span {
+	font-family: HighlandGothic, Arial;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	padding: 0 15px;
+	padding-top: 30%;
+	width: 100%;
+	color: #ffffff;
+	color: rgba(255,255,255,0.75);
+	font-size: 22px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.5);
+	transition: all 0.5s ease;
+}
+.tile a:hover span {
+	color: #ffffff;
+	background-color: rgba(0,0,0,0.25);
+}
+
+.gallery {
+	margin-top: 45px;
+}
+.gallery > div {
+	margin-bottom: 30px;
+}
+.gallery > div > a > img {
+	opacity: 1;
+}
+.gallery > div > a:hover > img {
+	opacity: 1;
+}
+.contact {
+	margin-top: 16px;
+}
+
+footer {
+	padding: 30px;
+	border-top: 1px solid #414141;
+	color: #616161;
+}
+footer p a {
+	color: #616161;
+	text-decoration: none;
+}
+footer p a:hover {
+	color: #999999;
+	text-decoration: none;
+}
+
+/* -- Desktop -- */
+@media (min-width: 1200px) {
+	.logo img {
+		margin: 0 auto;
+	}
+	.gallery > div > a > img {
+		opacity: 0.6;
+		transition: opacity 0.5s ease;
+	}
+	#sidebar .social-icons .btn {
+		padding: 15px 30px;
+	}
+}
+
+/* -- Tablet Landscape -- */
+@media (min-width: 992px) and (max-width: 1199px) {
+	#sidebar .social-icons .btn {
+		padding: 15px 30px;
+	}
+}
+
+/* -- Tablet Portait -- */
+@media (min-width: 768px) and (max-width: 991px) {
+	#sidebar .social-icons .btn {
+		padding: 15px 30px;
+	}
+
+}
+
+
+/* -- Phone Portait -- */
+@media (max-width: 767px) {
+	footer p {
+		float: none !important;
+	}
+}
